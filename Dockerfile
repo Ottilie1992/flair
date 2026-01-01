@@ -18,4 +18,3 @@ RUN python3 -m pip install psutil
 COPY . /gfootball
 RUN cd /gfootball && python3 -m pip install .
 WORKDIR '/gfootball'
-l
